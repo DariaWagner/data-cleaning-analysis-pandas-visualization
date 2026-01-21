@@ -49,6 +49,12 @@ Zusätzlich:
 
 Diese Kennzahlen dienen als Basis für Prozessanalysen und Optimierungsansätze.
 
+### KPI-Interpretation
+
+Die berechneten Produktionskennzahlen zeigen Unterschiede zwischen
+Produktionslinien und Schichten und liefern konkrete Ansatzpunkte
+für Prozessoptimierungen. 
+
 ---
 
 ## Verwendete Technologien
