@@ -1,91 +1,76 @@
-# Produktionsprozess-Analyse mit Pandas
+# Production KPI Analysis mit Pandas
 
-In diesem Projekt wird ein realistischer Produktionsdatensatz analysiert.
-Ziel ist die strukturierte Datenaufbereitung sowie die Berechnung und
-Auswertung zentraler Produktionskennzahlen (KPIs) mit Python, pandas und matplotlib.
+Dieses Repository enthält die **Pandas-basierte Datenaufbereitung,
+KPI-Berechnung und Visualisierungslogik** für das Projekt  
+**Data & Process Analytics Portfolio**.
 
----
-
-## Projektstruktur
-
-data/
-- produktionsdaten_premium_5Jahre.csv
-
-notebooks/
-- 01_data_overview_and_cleaning.ipynb
-- 02_kpis_production.ipynb
-- 03_visualization.ipynb
+Die Ergebnisse dieses Codes werden im interaktiven Streamlit-Dashboard dargestellt:  
+👉 https://daria-portfolio.streamlit.app
 
 ---
 
-## Schritt 1: Datenübersicht & Datenbereinigung
+## Projektziel
 
-In diesem Schritt wurden folgende Aufgaben durchgeführt:
+Ziel dieses Projekts ist die strukturierte Analyse eines
+einheitlichen Produktionsdatensatzes zur Berechnung und Interpretation
+zentraler Produktionskennzahlen (KPIs).
 
-- Laden und erste Analyse des Datensatzes
-- Prüfung der Datenstruktur und Datentypen
-- Umwandlung von Datentypen (numerisch & kategorisch)
-- Analyse und Behandlung fehlender Werte
-- Prüfung auf Duplikate
-- Fachliche Plausibilitätsprüfungen  
-  (z. B. Stillstandszeiten, Temperaturen, Ausschuss)
+Der Fokus liegt auf:
 
-**Ergebnis:**  
-Ein konsistenter und auswertbarer Datensatz als Grundlage für weitere Analysen.
+- sauberer Datenaufbereitung,
+- fachlich korrekter KPI-Definition,
+- Zeitreihen- und Vergleichsanalysen,
+- verständlicher Visualisierung der Ergebnisse.
 
 ---
 
-## Schritt 2: Produktions-KPIs
+## Analysen & KPIs
 
-Berechnung zentraler Produktionskennzahlen, u. a.:
+Basierend auf dem Produktionsdatensatz werden unter anderem folgende
+Kennzahlen berechnet und ausgewertet:
 
-- Ausschussquote (%)
-- Energieverbrauch pro Stück
-- Stillstandsanteil (%)
-- Gesamt- und durchschnittliche Produktionsmenge
+- Gesamtstückzahl
+- Ausschuss und Ausschussrate (%)
+- Stillstandszeiten
+- Energieverbrauch
+- Materialkosten
 
-Zusätzlich:
-- Vergleich der KPIs nach Produktionslinie
-- Vergleich der KPIs nach Schicht
+Zusätzlich werden die KPIs verglichen nach:
 
-### KPI-Interpretation
+- Produktionslinie
+- Schicht
+- Produkt
+- Zeitraum
 
-Die berechneten Produktionskennzahlen zeigen Unterschiede zwischen
-Produktionslinien und Schichten und liefern konkrete Ansatzpunkte
-für Prozessoptimierungen.
-
----
-
-## Schritt 3: Visualisierung & fachliche Interpretation
-
-Die berechneten KPIs wurden mithilfe von Diagrammen visualisiert,
-um Unterschiede und Zusammenhänge übersichtlich darzustellen.
-
-Visualisiert wurden unter anderem:
-- Ausschussquote nach Produktionslinie
-- Stillstandsanteil nach Schicht
-- Energieverbrauch pro Stück nach Produktionslinie
-- (optional) zeitliche Trends ausgewählter KPIs
-
-Die Visualisierungen ermöglichen eine schnelle Einordnung der
-Produktionsleistung und unterstützen die fachliche Interpretation
-der Ergebnisse.
+Die berechneten Kennzahlen entsprechen **1:1** den Visualisierungen
+im Streamlit-Dashboard.
 
 ---
 
-## Verwendete Technologien
+## 🗂 Projektstruktur
 
-- Python  
-- pandas  
-- matplotlib  
-- Jupyter Notebook  
-- Git & GitHub  
+## 🛠 SQL Skills
+
+- SELECT, WHERE, ORDER BY
+- GROUP BY, HAVING
+- Aggregationen (SUM, COUNT, AVG)
+- CASE Statements
+- JOINs (INNER, LEFT)
+- KPI-Berechnung
 
 ---
 
-## Fazit
+## ⚠️ Data Disclaimer
 
-Das Projekt zeigt, wie Produktionsdaten strukturiert aufbereitet,
-analysiert und verständlich visualisiert werden können.
-Die Ergebnisse liefern eine fundierte Grundlage zur Identifikation
-von Optimierungspotenzialen in Qualität, Effizienz und Prozessstabilität.
+Die verwendeten Daten sind **synthetisch (KI-generiert)** und simulieren
+reale industrielle Produktions- und Prozessdaten.
+
+Es werden keine echten Unternehmensdaten verwendet.
+
+---
+
+## 🔗 Verknüpfung
+
+Dieses Repository bildet die **SQL-Analysegrundlage**
+für das Streamlit-Portfolio:  
+👉 https://daria-portfolio.streamlit.app
